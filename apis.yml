@@ -10,7 +10,7 @@ tags:
 - Entity Framework
 - Data Access
 created: '2024'
-modified: '2024'
+modified: '2026-03-16'
 url: https://docs.microsoft.com/en-us/ef/
 apis:
 - name: Entity Framework Core
@@ -84,6 +84,5 @@ common:
 - type: License
   url: https://github.com/dotnet/efcore/blob/main/LICENSE.txt
 maintainers:
-- name: Microsoft
-  email: dotnet@microsoft.com
-  url: https://www.microsoft.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
