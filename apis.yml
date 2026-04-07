@@ -5,11 +5,11 @@ description: >-
   to work with databases using .NET objects.
 image: https://docs.microsoft.com/en-us/ef/images/ef-logo.png
 tags:
-  - ORM
-  - Database
   - .NET
-  - Entity Framework
   - Data Access
+  - Database
+  - Entity Framework
+  - ORM
 created: '2024'
 modified: '2026-03-16'
 url: https://docs.microsoft.com/en-us/ef/
@@ -22,21 +22,19 @@ apis:
     humanURL: https://docs.microsoft.com/en-us/ef/core/
     baseURL: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore
     tags:
-      - ORM
-      - Database
       - .NET Core
-      - Cross-platform
+      - Cross-Platform
+      - Database
+      - ORM
     properties:
       - type: Documentation
         url: https://docs.microsoft.com/en-us/ef/core/
       - type: Getting Started
         url: https://docs.microsoft.com/en-us/ef/core/get-started/
       - type: Tutorials
-        url: 
-          https://docs.microsoft.com/en-us/ef/core/get-started/overview/first-app
+        url: https://docs.microsoft.com/en-us/ef/core/get-started/overview/first-app
       - type: API Reference
-        url: 
-          https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore
+        url: https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore
       - type: NuGet Package
         url: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore
       - type: GitHub Repository
@@ -44,8 +42,7 @@ apis:
       - type: Release Notes
         url: https://docs.microsoft.com/en-us/ef/core/what-is-new/
       - type: Migration Guide
-        url: 
-          https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/
+        url: https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/
   - name: Entity Framework 6
     description: >-
       The mature and stable ORM for .NET Framework with extensive features and community
@@ -53,10 +50,10 @@ apis:
     humanURL: https://docs.microsoft.com/en-us/ef/ef6/
     baseURL: https://www.nuget.org/packages/EntityFramework
     tags:
-      - ORM
-      - Database
       - .NET Framework
+      - Database
       - Legacy
+      - ORM
     properties:
       - type: Documentation
         url: https://docs.microsoft.com/en-us/ef/ef6/
@@ -69,17 +66,14 @@ apis:
       - type: GitHub Repository
         url: https://github.com/dotnet/ef6
       - type: Code First
-        url: 
-          https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/workflows/new-database
+        url: https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/workflows/new-database
       - type: Database First
-        url: 
-          https://docs.microsoft.com/en-us/ef/ef6/modeling/designer/workflows/database-first
+        url: https://docs.microsoft.com/en-us/ef/ef6/modeling/designer/workflows/database-first
 common:
   - type: Blog
     url: https://devblogs.microsoft.com/dotnet/tag/entity-framework/
   - type: Community Standup
-    url: 
-      https://www.youtube.com/playlist?list=PLdo4fOcmZ0oX0ObHwBrJ0vJpZ7PiYMqeA
+    url: https://www.youtube.com/playlist?list=PLdo4fOcmZ0oX0ObHwBrJ0vJpZ7PiYMqeA
   - type: Stack Overflow
     url: https://stackoverflow.com/questions/tagged/entity-framework
   - type: Twitter
