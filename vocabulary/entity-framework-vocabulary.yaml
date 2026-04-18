@@ -1,0 +1,46 @@
+vocabulary: 1.0.0
+info:
+  provider: Microsoft Entity Framework
+  description: Vocabulary for Entity Framework ORM covering data access patterns,
+    database providers, and migration tools.
+  created: '2026-04-17'
+  modified: '2026-04-17'
+operational:
+  apis:
+  - name: Entity Framework Core
+    namespace: ef-core
+    status: active
+  - name: Entity Framework 6
+    namespace: ef6
+    status: active
+  resources:
+  - name: entities
+    description: .NET classes mapped to database tables.
+  - name: dbcontext
+    description: Database session and unit of work.
+  - name: migrations
+    description: Schema version control and evolution.
+  - name: queries
+    description: LINQ and raw SQL query execution.
+  - name: providers
+    description: Database provider plugins.
+capability:
+  personas:
+  - id: dotnet-developer
+    name: .NET Developer
+  - id: database-developer
+    name: Database Developer
+  - id: architect
+    name: Software Architect
+  domains:
+  - name: data-access
+    resources:
+    - entities
+    - dbcontext
+    - queries
+  - name: schema-management
+    resources:
+    - migrations
+  - name: database-connectivity
+    resources:
+    - providers
