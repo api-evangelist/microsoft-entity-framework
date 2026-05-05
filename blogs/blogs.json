@@ -1,0 +1,13 @@
+{
+  "repo": "microsoft-entity-framework",
+  "feeds": [
+    {
+      "source": "https://devblogs.microsoft.com/dotnet/tag/entity-framework/",
+      "feed_url": "https://devblogs.microsoft.com/dotnet/tag/entity-framework/feed/",
+      "saved": 10,
+      "title": "Entity Framework - Tag | .NET Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:31:41Z"
+}
