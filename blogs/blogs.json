@@ -2,12 +2,20 @@
   "repo": "microsoft-entity-framework",
   "feeds": [
     {
-      "source": "https://devblogs.microsoft.com/dotnet/tag/entity-framework/",
+      "source": "https://devblogs.microsoft.com/dotnet/tag/entity-framework/feed/",
       "feed_url": "https://devblogs.microsoft.com/dotnet/tag/entity-framework/feed/",
-      "title": "Entity Framework - Tag | .NET Blog",
-      "saved": 2
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://learn.microsoft.com/en-us/ef/",
+      "feed_url": "https://learn.microsoft.com/en-us/ef/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 12,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
