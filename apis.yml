@@ -39,7 +39,7 @@ apis:
     url: https://github.com/dotnet/efcore
   - type: ReleaseNotes
     url: https://learn.microsoft.com/en-us/ef/core/what-is-new/
-  - type: SDK
+  - type: SDKs
     url: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore
     title: NuGet Package
 - aid: microsoft-entity-framework:ef6
@@ -62,7 +62,7 @@ apis:
     url: https://learn.microsoft.com/en-us/dotnet/api/system.data.entity
   - type: GitHubRepository
     url: https://github.com/dotnet/ef6
-  - type: SDK
+  - type: SDKs
     url: https://www.nuget.org/packages/EntityFramework
     title: NuGet Package
 common:
