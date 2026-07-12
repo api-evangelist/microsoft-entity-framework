@@ -66,6 +66,10 @@ apis:
     url: https://www.nuget.org/packages/EntityFramework
     title: NuGet Package
 common:
+- type: VulnerabilityDisclosure
+  url: security/microsoft-entity-framework-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/microsoft-entity-framework-domain-security.yml
 - type: Portal
   url: https://learn.microsoft.com/en-us/ef/
 - type: Blog
