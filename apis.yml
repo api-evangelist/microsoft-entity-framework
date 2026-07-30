@@ -5,6 +5,18 @@ description: Microsoft Entity Framework is an object-relational mapping (ORM) fr
   modern, cross-platform version supporting SQL Server, PostgreSQL, MySQL, SQLite,
   and Cosmos DB with LINQ queries, change tracking, migrations, and code-first modeling.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://docs.microsoft.com/en-us/ef/images/ef-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/apis.yml
 created: '2024-01-01'
