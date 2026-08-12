@@ -78,6 +78,19 @@ apis:
     url: https://www.nuget.org/packages/EntityFramework
     title: NuGet Package
 common:
+- type: IssueTracker
+  url: https://github.com/dotnet/efcore/issues
+- type: Releases
+  url: https://github.com/dotnet/efcore/releases
+- type: SecurityPolicy
+  url: https://github.com/dotnet/efcore/blob/main/.github/SECURITY.md
+- type: CodeOfConduct
+  url: https://github.com/dotnet/efcore/blob/main/.github/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/dotnet/efcore/blob/main/.github/CONTRIBUTING.md
+- type: License
+  name: MIT
+  url: https://github.com/dotnet/efcore/blob/main/LICENSE
 - type: VulnerabilityDisclosure
   url: security/microsoft-entity-framework-vulnerability-disclosure.yml
 - type: DomainSecurity
