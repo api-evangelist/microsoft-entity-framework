@@ -5,6 +5,19 @@ description: Microsoft Entity Framework is an object-relational mapping (ORM) fr
   modern, cross-platform version supporting SQL Server, PostgreSQL, MySQL, SQLite,
   and Cosmos DB with LINQ queries, change tracking, migrations, and code-first modeling.
 type: Index
+deliveryModel:
+  model: open-core
+  license: MIT
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
