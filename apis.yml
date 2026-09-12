@@ -91,6 +91,8 @@ apis:
     url: https://www.nuget.org/packages/EntityFramework
     title: NuGet Package
 common:
+- type: Website
+  url: https://www.microsoft.com/
 - type: IssueTracker
   url: https://github.com/dotnet/efcore/issues
 - type: Releases
@@ -178,3 +180,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
+x-parent: microsoft
+x-relationship: product
