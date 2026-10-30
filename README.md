@@ -1,4 +1,4 @@
-# Microsoft Entity Framework (microsoft-entity-framework)
+# Microsoft Entity Framework
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,69 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Microsoft Entity Framework is an object-relational mapping (ORM) framework for .NET enabling database access using .NET objects with LINQ queries, change tracking, migrations, and code-first modeling.
+Microsoft Entity Framework is an object-relational mapping (ORM) framework for .NET developers enabling database access using .NET objects. EF Core is the modern, cross-platform version supporting SQL Server, PostgreSQL, MySQL, SQLite, and Cosmos DB with LINQ queries, change tracking, migrations, and code-first modeling.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/apis.yml)
+**Areas:** .NET · Data Access · Database · Entity Framework · ORM
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Microsoft Entity Framework on APIs.io
 
-## Tags:
+Everything profiled for Microsoft Entity Framework is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-entity-framework/](https://apis.io/providers/microsoft-entity-framework/)** — or go straight to one of the APIs or properties below.
 
- - .NET, Data Access, Database, Entity Framework, ORM
+### APIs (2)
 
-## Timestamps
+- [Entity Framework Core](https://apis.io/apis/microsoft-entity-framework/ef-core/) — A lightweight, extensible, open source and cross-platform ORM for .NET. Supports SQL Server, PostgreSQL, MySQL, SQLite, Cosmos DB, and in-memory databases.
+- [Entity Framework 6](https://apis.io/apis/microsoft-entity-framework/ef6/) — The mature and stable ORM for .NET Framework with Code First, Database First, and Model First workflows.
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-2 APIs: Entity Framework Core (.NET 6+), Entity Framework 6 (.NET Framework).
+#### Vocabulary (1)
 
-## Features
+The provider's domain terms, defined.
 
-| Name | Description |
-|------|-------------|
-| LINQ Queries | Database queries using Language Integrated Query with strongly-typed C#. |
-| Change Tracking | Automatic tracking of entity changes for efficient updates. |
-| Migrations | Database schema versioning with code-first migrations. |
-| Code First Modeling | Define schemas using C# classes with data annotations or Fluent API. |
-| Database Providers | Plugin architecture for SQL Server, PostgreSQL, MySQL, SQLite, Cosmos DB. |
-| Lazy and Eager Loading | Control related entity loading strategies. |
-| Raw SQL Queries | Execute raw SQL and stored procedures alongside LINQ. |
-| Global Query Filters | Automatic filtering for multi-tenancy and soft deletes. |
-| Value Converters | Custom type conversions between .NET and database types. |
-| Compiled Queries | Pre-compile LINQ queries for improved performance. |
+- [Entity Framework Vocabulary](https://apis.io/vocabularies/microsoft-entity-framework/entity-framework-vocabulary/)
 
-## Use Cases
+#### Governance rules (1)
 
-| Name | Description |
-|------|-------------|
-| Web Application Data Access | Data layer for ASP.NET Core web applications and APIs. |
-| Microservices Data Layer | Database access for .NET microservices. |
-| Database Migration Management | Version-controlled schema evolution. |
-| Multi-Database Applications | Connect to multiple database providers simultaneously. |
-| Domain-Driven Design | Implement DDD patterns with aggregate roots and repositories. |
-| Legacy Database Integration | Map existing schemas to modern .NET classes. |
+Spectral rulesets for the provider's contracts.
 
-## Solutions
+- [Microsoft Entity Framework — entity framework rules](https://apis.io/rules/microsoft-entity-framework/entity-framework-spectral-rules/)
 
-| Name | Description |
-|------|-------------|
-| Entity Framework Core | Modern, cross-platform ORM for .NET 6+. |
-| Entity Framework 6 | Mature ORM for .NET Framework. |
-| EF Core Tools | CLI and Package Manager Console tools for migrations. |
+#### Security (2)
 
-## Vocabulary
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Entity Framework Vocabulary](vocabulary/entity-framework-vocabulary.yaml) — 5 resources, 2 APIs, 3 domains, 3 personas
+- [Microsoft Entity Framework Domain Security](https://apis.io/security/microsoft-entity-framework/microsoft-entity-framework-domain-security/)
+- [Microsoft Entity Framework Vulnerability Disclosure](https://apis.io/security/microsoft-entity-framework/microsoft-entity-framework-vulnerability-disclosure/)
 
-## Rules
+#### Plans and pricing (1)
 
-- [Entity Framework Spectral Rules](rules/entity-framework-spectral-rules.yml) — 14 rules
+Published plans, tiers and prices.
 
-## Maintainers
+- [Microsoft Entity Framework Plans Pricing](https://apis.io/plans/microsoft-entity-framework/microsoft-entity-framework-plans-pricing/)
 
-**FN:** Kin Lane
+#### Rate limits (1)
 
-**Email:** kin@apievangelist.com
+Published request limits.
+
+- [Microsoft Entity Framework Rate Limits](https://apis.io/rate-limits/microsoft-entity-framework/microsoft-entity-framework-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Microsoft Entity Framework Finops](https://apis.io/finops/microsoft-entity-framework/microsoft-entity-framework-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.microsoft.com/)
+- [Support](https://learn.microsoft.com/en-us/ef/core/get-started/overview/support)
+- [Blog](https://devblogs.microsoft.com/dotnet/tag/entity-framework/)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/dotnet)
+
+## API Evangelist rating
+
+**Kin Score 32.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 7.6 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-entity-framework/](https://apis.io/providers/microsoft-entity-framework/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft Entity Framework: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-entity-framework/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
